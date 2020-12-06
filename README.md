@@ -1,4 +1,4 @@
-# HW2-Bootstrap
+Bootstrap-Portfolio
 
 https://github.com/erumd/Bootstrap-Portfolio
 
