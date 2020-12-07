@@ -7,3 +7,7 @@ Used Bootstrap CSS framework to create portfolio and Visual Studio Tool.
 https://github.com/erumd/Bootstrap-Portfolio
 
 https://erumd.github.io/Bootstrap-Portfolio/.
+
+
+This is how my webpage look on the website 
+<img src= "images/webpage.jpg" alt= "webpage" style="width:300px">
