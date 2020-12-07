@@ -8,17 +8,17 @@ https://erumd.github.io/Bootstrap-Portfolio/.
 <p></p>
 
 <h1> Screenshots of My Webpage </h1>
-<h2> "About Me" Webpage View </h2>
-<img src= "images/webpage.jpg" alt= "webpage" style="height:100px">
-<h2> "About Me" Small Screen View </h3>
-<img src= "images/smallscreen.jpg" alt= "webpage" style="height:100x">
+<h3> "About Me" Webpage View </h3>
+<img src= "images/webpage.jpg" alt= "webpage" width= "400" height="200">
+<h3> "About Me" Small Screen View </h3>
+<img src= "images/smallscreen.jpg" alt= "webpage" width= "200" height="200">
 
-<h2> "Portfolio" Webpage View </h2>
-<img src= "images/portfolio.jpg" alt= "webpage" style="height:100px">
-<h3> "Portfolio" Small Screen View </h3>
-<img src= "images/portfolio2.jpg" alt= "webpage" style="height:100x">
+<h3> "Portfolio" Webpage View </h3>
+<img src= "images/portfolio.jpg" alt= "webpage" width= "400" height="200">
+<h3> "Portfolio" Small Screen </h3>
+<img src= "images/portfolio2.jpg" alt= "webpage" width= "200" height="200">
 
-<h2> "Contact" Webpage View </h2>
-<img src= "images/contact.jpg" alt= "webpage" width= "300" height="200">
+<h3> "Contact" Webpage View </h3>
+<img src= "images/contact.jpg" alt= "webpage" width= "400" height="200">
 <h3> "Contact" Small Screen View </h3>
-<img src= "images/contact2.jpg" alt= "webpage" width= "300" height="200">
+<img src= "images/contact2.jpg" alt= "webpage" width= "200" height="200">
