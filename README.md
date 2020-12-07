@@ -8,7 +8,7 @@ https://erumd.github.io/Bootstrap-Portfolio/.
 <p></p>
 
 
-<h2> Webpage View </h2>
+<h2> "About Me" Webpage View </h2>
 <img src= "images/webpage.jpg" alt= "webpage" style="height:100px">
-<h3> Small Screen View </h3>
+<h3> "About Me" Small Screen View </h3>
 <img src= "images/smallscreen.jpg" alt= "webpage" style="height:100x">
