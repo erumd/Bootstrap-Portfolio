@@ -7,7 +7,7 @@ https://github.com/erumd/Bootstrap-Portfolio
 https://erumd.github.io/Bootstrap-Portfolio/.
 <p></p>
 
-<h1> Screenshots of My Webpahe </h1>
+<h1> Screenshots of My Webpage </h1>
 <h2> "About Me" Webpage View </h2>
 <img src= "images/webpage.jpg" alt= "webpage" style="height:100px">
 <h2> "About Me" Small Screen View </h3>
@@ -19,6 +19,6 @@ https://erumd.github.io/Bootstrap-Portfolio/.
 <img src= "images/portfolio2.jpg" alt= "webpage" style="height:100x">
 
 <h2> "Contact" Webpage View </h2>
-<img src= "images/contact.jpg" alt= "webpage" style="height:100px">
+<img src= "images/contact.jpg" alt= "webpage" width= "300" height="200">
 <h3> "Contact" Small Screen View </h3>
-<img src= "images/contact2.jpg" alt= "webpage" style="height:100x">
+<img src= "images/contact2.jpg" alt= "webpage" width= "300" height="200">
