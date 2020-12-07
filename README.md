@@ -1,4 +1,4 @@
-Bootstrap-Portfolio
+Responsive Portfolio
 
 Use responsive design to make sure webpage loads on different devices of different screen sizes. Included working link to different pages. 
 
