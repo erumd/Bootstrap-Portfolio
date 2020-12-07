@@ -7,7 +7,7 @@ https://github.com/erumd/Bootstrap-Portfolio
 
 https://erumd.github.io/Bootstrap-Portfolio/.
 <hr>
-<!-- <pre will add spacing> -->
+<!-- <pre element is displayed in a fixed-width font (usually Courier), and it preserves both spaces and line breaks> -->
 <pre>
 <h1> Screenshots of My Webpage </h1>
 <h3> "About Me" Webpage View </h3>
