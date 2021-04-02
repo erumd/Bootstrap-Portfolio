@@ -1,102 +1,140 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
- <!-- Bootstrap CSS -->
- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
-    
- <title>Contact </title>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+      integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2"
+      crossorigin="anonymous"
+    />
+
+    <title>Contact</title>
 
     <style>
-    /* trying to change the button color */
-    /* .button {
-          color: rgb(17, 17, 17);
-        } */
-         /* added background color. */
-    @media screen and (max-width: 768px) {
-      body {
-        background-color: rgb(224, 222, 221);
+      .container {
+        background-image: linear-gradient(
+          to right top,
+          rgb(211, 236, 247),
+          rgb(168, 166, 164)
+        );
       }
-    }
-
-    footer {
-      padding: 60px ;
-    }
     </style>
-</head>
+  </head>
 
-<body>
+  <body>
     <!-- Start Nav -->
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-    <span class="navbar-brand mb-1 h1">       </span>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <span class="navbar-brand mb-1 h1"> </span>
 
-    <!-- Added name to Nav bar  -->
-    <span class="navbar-brand mb-1 h1" > Erum Dhukka </span>
+      <!-- Added name to Nav bar  -->
+      <span class="navbar-brand mb-1 h1"> Erum Dhukka </span>
 
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="nav navbar-nav navbar-right">
+          <li class="nav-item">
+            <a class="nav-link" href="./index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./portfolio.html">Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./contact.html">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <!-- End Nav -->
 
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="nav navbar-nav navbar-right">
-        <li class="nav-item">
-          <a class="nav-link" href="./index.html">Home</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="./portfolio.html">Portfolio</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="./contact.html">Contact</a>
-        </li>
-      </ul>
-    </div>
-  </nav>
-  <!-- End Nav -->
-  
-  <div class="container">
-    <div class="row">
-      <div class="col-md-8">
-        <div class="page-header">
-          <h1>Contact </h1>
-          <p> <h5> erumdhukka531@gmail.com</h5> </p>
-          <p> <h5> https://github.com/erumd </h5></p> 
-        </div>
-        <!-- added row for form -->
-        <div class="row"> 
+    <div class="container">
+      <div class="row">
         <div class="col-md-8">
-        <!-- added form -->
-        <form class="needs-validation" novalidate>
-        <!-- <form> -->
-          <div class="form-group">
-            <label for="formGroupExampleInput">Name</label>
-            <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Name">
+          <div class="page-header">
+            <h1>Contact</h1>
+            <br />
+            <div>
+              <h5>
+                <img
+                  src="./images/gmail.jpeg"
+                  alt="gmail"
+                  width="50"
+                  height="50"
+                />
+                <a href="mailto:erumdhukka531@gmail.com" target="_blank">
+                  erumdhukka531@gmail.com</a
+                >
+              </h5>
+            </div>
+            <br />
+            <div>
+              <h5>
+                <img
+                  src="./images/GitHub.png"
+                  alt="gmail"
+                  width="50"
+                  height="50"
+                />
+                <a href="https://github.com/erumd" target="_blank">
+                  https://github.com/erumd
+                </a>
+              </h5>
+            </div>
+            <br />
+            <div>
+              <h5>
+                <img
+                  src="./images/LinkedIn.png"
+                  alt="gmail"
+                  width="50"
+                  height="50"
+                />
+                <a
+                  href="https://www.linkedin.com/in/erum-dhukka/"
+                  target="_blank"
+                >
+                  https://www.linkedin.com/in/erum-dhukka/
+                </a>
+              </h5>
+            </div>
           </div>
-          <div class="form-group">
-            <label for="formGroupExampleInput2">Email</label>
-            <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Email">
-          </div>
-          <div class="form-group">
-            <label for="exampleFormControlTextarea1">Message</label>
-            <!-- message placeholder not showing up -->
-            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Message" > </textarea>
-          </div>
-          <button id="btn-btn-primary" type="submit">Submit form</button>
-        </form>
-        </div>
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
         </div>
       </div>
     </div>
-  </div>
-  <footer class="navbar navbar-expand-lg navbar-dark bg-dark">
-    <div class="container">
-      <span class= "text-muted">Copyright 2020 </span>
-    </div>
-  </footer>
-  <!-- JavaScript, jQuery and Bootstrap Bundle (includes Popper)  -->
-  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
 
-</body>
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>

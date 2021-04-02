@@ -1,88 +1,229 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfolio</title>
     <!-- Bootstrap CDN -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    />
+    <script src="./index.js"></script>
 
-    <style>  
-    /* added background color. */
-    @media screen and (max-width: 768px) {
-      body {
-        background-color: rgb(224, 222, 221);
-      }
-    }
-    </style> 
+    <style>
+     .container {
+            background-image: linear-gradient(to right top, rgb(242, 247, 211), rgb(168, 166, 164));
+          } 
+    </style>
+  </head>
+  <body>
+    <!-- Start Nav -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <span class="navbar-brand mb-1 h1"></span>
 
-</head>
-<body>
-<!-- Start Nav -->
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-    <span class="navbar-brand mb-1 h1"></span>
+      <!-- Added name to Nav bar  -->
+      <span class="navbar-brand mb-1 h1"> Erum Dhukka </span>
 
-    <!-- Added name to Nav bar  -->
-    <span class="navbar-brand mb-1 h1" > Erum Dhukka </span>
-
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="nav navbar-nav navbar-right">
-        <li class="nav-item">
-          <a class="nav-link" href="./index.html">Home</a>
-        </li>
-        <li class="nav-item">
-          <!-- Learning point: Do NOT copy relative path try to understand it. 
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="nav navbar-nav navbar-right">
+          <li class="nav-item">
+            <a class="nav-link" href="./index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <!-- Learning point: Do NOT copy relative path try to understand it. 
           copying relative path takes your file saved on computer.
         Need relative path to link on website  -->
-          <a class="nav-link" href="./portfolio.html">Portfolio</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="./contact.html">Contact</a>
-        </li>
-      </ul>
-    </div>
-  </nav>
-  <!-- End Nav -->
+            <a class="nav-link" href="./portfolio.html">Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./contact.html">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <!-- End Nav -->
 
-  <div class="container">
-    <div class="row">
-      <div class="col-md-8">
-        <div class="page-header">
-          <h1>Portfolio</h1>
-        </div>
-  <!-- added another row for pictures  -->
-        <div class="row">
-          <div class="col-md-3">
-            <!-- Very proud: linking picture in images folder worked. I learned type in name of folder and select it to link
-              instead of typing everything    -->
-            <img src="images/horse.jpg" alt= "Ranger and I at the ranch." style="width:150px">
-            <p> </p>
-            <img src="images/lilypads2.jpg" alt= "Brazosbend State Park with lily pads in the lake" style="width:150px"> 
-            <p> </p>
-            <img src="images/foam.jpg" alt= "Foam Glow Marathon." style= "width:150px">
-            <p> </p>
-            <img src="images/seasons.jpg" alt= "Fall picture of a tree on an evening walk." style= "width:150px;">
-            <p> </p>
-            <img src="images/ivote.PNG" alt= "Civil responsibility to vote." style= "width:150px;">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8">
+          <div class="page-header">
+            <h1>Portfolio</h1>
           </div>
+          <br />
+          <!-- BOOTSTRAP CARD -->
+          <div class="card">
+            <div class="card-header">
+              <h4 class="card-title">Style with Weather</h4>
+            </div>
+            <div class="card-body">
+              <!-- <h4 class="card-title">Style with Weather</h4> -->
+              <h6>
+                <a
+                  href="https://github.com/erumd/Style-With-My-Weather"
+                  target="_blank"
+                >
+                  GitHub Repository
+                </a>
+              </h6>
+              <h6>
+                <a
+                  href="https://q-jones92.github.io/Style-With-My-Weather-App/ "
+                  target="_blank"
+                >
+                  Deployed Link
+                  (https://q-jones92.github.io/Style-With-My-Weather-App/)
+                </a>
+              </h6>
+
+              <p class="card-text">
+                This project takes any city input and returns the current
+                weather, hourly, and 6 day weather forecast. It tells you how to
+                dress for that day. It also shows you nearby hotels, clothing
+                stores, restaurants, night life, and attractions.
+              </p>
+              <p>
+                My role: Project manager, front end, and back end developer.
+              </p>
+              <p></p>
+              <p>
+                Tools: Open Weather API, Google Maps API, Visual Studio Code,
+                HTML5, CSS3, Javascript, JQuery
+              </p>
+              <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+            </div>
+          </div>
+          <br />
+          <!-- BOOTSTRAP CARD 2 -->
+          <div class="card">
+            <div class="card-header">
+              <h4 class="card-title">PedaGogue</h4>
+            </div>
+            <div class="card-body">
+              <!-- <h5 class="card-title">Style with Weather</h5> -->
+              <h6>
+                <a href="https://github.com/erumd/PedaGogue" target="_blank">
+                  GitHub Repository
+                </a>
+              </h6>
+              <h6>
+                <a href="https://pedagu-gu.herokuapp.com/login" target="_blank">
+                  Deployed Link (https://pedagu-gu.herokuapp.com/login)
+                </a>
+              </h6>
+
+              <p class="card-text">
+                This project is a social networking app made to help educators
+                seek advice, ask questions, or get resources from other
+                educators. They pick from the pre-generated categories to ask
+                questions or share their expertise in a subject matter.
+              </p>
+              <p>
+                My role: Project manager, front end, and back end developer.
+              </p>
+              <p></p>
+              <p>
+                Tools: Node.Js, Express.JS, Handlebars, MVC, MySQL, Visual
+                Studio Code, HTML5, CSS3, Javascript, JQuery.
+              </p>
+            </div>
+          </div>
+          <br />
+          <br />
+
+          <!-- BOOTSTRAP CARD EXTRA -->
+          <!-- <div class="card">
+            <div class="card-header">
+              <h4 class="card-title">Title</h4>
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Style with Weather</h5> -->
+          <!-- <h6>
+                <a href="https://github.com" target="_blank">
+                  GitHub Repository
+                </a>
+              </h6>
+              <h6>
+                <a href="https://pedagu-gu.herokuapp.com/login" target="_blank">
+                  Deployed Link (https://pedagu-gu.herokuapp.com/login)
+                </a>
+              </h6>
+
+              <p class="card-text">
+                his project 
+              </p>
+              <p>
+                My role: Project manager, front end, and back end developer.
+              </p>
+              <p></p>
+              <p>
+                Tools: Node.Js, Express.JS, Handlebars, MVC, MySQL, Visual
+                Studio Code, HTML5, CSS3, Javascript, JQuery.
+              </p>
+            </div>
+          </div>  -->
+
+          <!-- added another row for pictures  -->
+          <!-- <div class="row">
+            <div class="col-md-3"> -->
+          <!-- Very proud: linking picture in images folder worked. I learned type in name of folder and select it to link
+              instead of typing everything    -->
+          <!-- <img
+                src="images/horse.jpg"
+                alt="Ranger and I at the ranch."
+                style="width: 150px"
+              />
+              <p></p>
+              <img
+                src="images/lilypads2.jpg"
+                alt="Brazosbend State Park with lily pads in the lake"
+                style="width: 150px"
+              />
+              <p></p>
+              <img
+                src="images/foam.jpg"
+                alt="Foam Glow Marathon."
+                style="width: 150px"
+              />
+              <p></p>
+              <img
+                src="images/seasons.jpg"
+                alt="Fall picture of a tree on an evening walk."
+                style="width: 150px"
+              />
+              <p></p>
+              <img
+                src="images/ivote.PNG"
+                alt="Civil responsibility to vote."
+                style="width: 150px"
+              /> -->
+          <!-- </div>
+          </div> -->
         </div>
       </div>
     </div>
-  </div>
-  <!-- Footer added -->
-  <footer class="navbar navbar-expand-lg navbar-dark bg-dark">
-    <div class="container">
-      <span class= "text-muted">Copyright 2020 </span>
-    </div>
-  </footer>
-<!-- JavaScript, jQuery and Bootstrap Bundle (includes Popper)  -->
-<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"> </script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
 
-</body>
+    <!-- JavaScript, jQuery and Bootstrap Bundle (includes Popper)  -->
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
