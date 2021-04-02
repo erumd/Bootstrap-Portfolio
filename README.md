@@ -15,7 +15,7 @@ https://erumd.github.io/Bootstrap-Portfolio/.
 <img src="./images/HomePage.png" alt= "webpage" width= "400" height="200">
 
 <h3> "Portfolio" Webpage View </h3>
-<img src= "./images/portfolio.jpg" alt= "webpage" width= "310" height="200">
+<img src= "./images/portfolio.png" alt= "webpage" width= "310" height="200">
 <!-- <h3> "Portfolio" Small Screen </h3>
 <img src= "images/portfolio2.jpg" alt= "webpage" width= "200" height="200"> -->
 
